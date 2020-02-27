@@ -13,7 +13,7 @@ html {
 
 .banner-image {
     /* The image used */
-    background-image: url("");
+    background-image: url("img/picture/ship-1366926_1280.jpg");
     /* Add the blur effect */
     filter: blur(8px);
     -webkit-filter: blur(8px);
@@ -44,4 +44,23 @@ html {
     width: 80%;
     padding: 20px;
     text-align: center;
+}
+
+.arrow img {
+    position: absolute;
+    margin-left: 50%;
+    bottom: 0;
+    animation: img 1s infinite;
+}
+
+@keyframes img {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
