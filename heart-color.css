@@ -1,0 +1,78 @@
+#heart-color {
+    -webkit-animation: anim1 3s infinite;
+    -moz-animation: anim1 3s infinite;
+    -o-animation: anim1 3s infinite;
+    animation: anim1 3s infinite;
+}
+
+@-webkit-keyframes anim1 {
+    from {
+        color: #ffffff;
+    }
+    25% {
+        color: #c71585;
+    }
+    50% {
+        color: #6a5acd;
+    }
+    75% {
+        color: #dc143c;
+    }
+    to {
+        color: #7fff00;
+    }
+}
+
+@-moz-keyframes anim1 {
+    from {
+        color: #ffffff;
+    }
+    25% {
+        color: #c71585;
+    }
+    50% {
+        color: #6a5acd;
+    }
+    75% {
+        color: #dc143c;
+    }
+    to {
+        color: #7fff00;
+    }
+}
+
+@-o-keyframes anim1 {
+    from {
+        color: #ffffff;
+    }
+    25% {
+        color: #c71585;
+    }
+    50% {
+        color: #6a5acd;
+    }
+    75% {
+        color: #dc143c;
+    }
+    to {
+        color: #7fff00;
+    }
+}
+
+@keyframes anim1 {
+    from {
+        color: #ffffff;
+    }
+    25% {
+        color: #c71585;
+    }
+    50% {
+        color: #6a5acd;
+    }
+    75% {
+        color: #dc143c;
+    }
+    to {
+        color: #7fff00;
+    }
+}
