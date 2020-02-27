@@ -64,3 +64,21 @@ html {
         opacity: 1;
     }
 }
+
+
+/* bounce */
+
+.four.columns img {
+    animation: bounce 0.45s ease infinite alternate;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
