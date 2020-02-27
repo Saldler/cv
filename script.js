@@ -29,3 +29,14 @@ $(window).scroll(function() {
     });
 
 }).scroll();
+
+
+/* Icon bar */
+
+window.addEventListener("scroll", function() {
+    if (window.scrollY > 500) {
+        $('.icon-bar').slideDown();
+    } else {
+        $('.icon-bar').slideUp();
+    }
+}, false);

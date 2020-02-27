@@ -66,6 +66,7 @@ html {
 }
 
 .icon-bar {
+    display: none;
     position: fixed;
     top: 50%;
     -webkit-transform: translateY(-50%);
