@@ -211,13 +211,6 @@
             .icon-bar a {
                 display: none;
             }
-            .icon-bar-mobile {
-                position: absolute;
-                top: 15px;
-                margin-left: 25%;
-                position: fixed;
-                z-index: 100;
-            }
             .icon-bar-mobile a {
                 display: inline;
                 text-align: center;
