@@ -213,7 +213,7 @@
             }
             .icon-bar-mobile {
                 position: absolute;
-                bottom: 10px;
+                top: 15px;
                 margin-left: 25%;
                 position: fixed;
                 z-index: 100;
