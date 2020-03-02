@@ -231,10 +231,13 @@
             width: 24.99999%;
         }
         
-        .clearfix:after {
-            content: "";
-            display: table;
-            clear: both;
+        .six.columns img {
+            width: 50%;
+        }
+        
+        .six.columns p {
+            padding: 40px;
+            margin: auto;
         }
         
         @media screen and (max-width: 800px) {
