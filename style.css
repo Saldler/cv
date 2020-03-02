@@ -190,6 +190,10 @@
         .clear {
             clear: both;
         }
+        
+        .text-intro {
+            text-align: left;
+        }
         /* bounce */
         
         .four.columns img {
