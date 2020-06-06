@@ -89,17 +89,10 @@
             background: black;
         }
         
-        .Linkedin {
-            background: #007bb5;
-        }
-        
         .Mail {
             background: #dd4b39;
         }
         
-        .CV {
-            background: #bb0000;
-        }
         /* Porthole */
         
         #focus {
@@ -259,16 +252,9 @@
             .Github {
                 background: black;
             }
-            .Linkedin {
-                background: #007bb5;
-            }
             .Mail {
                 background: #dd4b39;
             }
-            .CV {
-                background: #bb0000;
-            }
-        }
         
         @media screen and (min-width: 800px) {
             .icon-bar-mobile {
